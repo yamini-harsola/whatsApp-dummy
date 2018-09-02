@@ -1,0 +1,130 @@
+:root{
+	font-size: 18px;
+}
+
+#chats{
+	padding-left: 0.5vw;
+	font-size: 3rem;
+}
+
+.active-chats{
+	padding-left: 2vw;
+	padding top: 4vh;
+	padding-bottom: 1vh;
+	padding-right: 8vw;
+	font-size: 1rem;
+
+}
+
+.active-texts{
+	padding-left: 8vw;
+	font-size: .8rem;
+    color: grey;
+}
+
+.unreadLeft{
+float: left; 
+}
+
+.unreadRight{
+	float: right;
+}
+
+.chat{
+	box-shadow: 0 0 11px 2px black;
+	border-radius: 10vw;
+}
+
+form#send{
+    position: fixed;
+	bottom: 20px;
+}
+
+input#textBox{
+	width: 55vw;
+}
+
+input#textBoxnew{
+   width: 80vw;
+}
+
+.img-left{
+	float: left;
+	width: 55px;
+	border-radius: 4vw;
+	vertical-align: middle;
+    border-style: none;
+}
+
+.text-small {
+  font-size: 0.95rem; }
+
+.text-smaller {
+  font-size: 0.75rem; }
+
+.left{
+	float: left!important; 
+}
+
+.unread{
+	border-radius: .5vw;
+}
+.right{
+	padding-top: 5vh;
+	float: right!important;
+}
+.profright{
+	float: right!important;
+}
+
+h6#date{
+	padding: 5vw 5vh;
+    text-align: center;
+}
+.scrollbar-light-blue::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #F5F5F5;
+  border-radius: 10px; }
+
+.scrollbar-light-blue::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5; }
+
+.scrollbar-light-blue::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #82B1FF; }
+
+div#side1::::-webkit-scrollbar{
+	  width: 12vw;
+  background-color: #F5F5F5;
+}
+
+div#side1::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 50vw;
+  background-color: #F5F5F5;
+}
+
+div#side1::-webkit-scrollbar-thumb {
+  border-radius: 10vw;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #555;
+}
+
+div#side2::::-webkit-scrollbar{
+	  width: 12px;
+  background-color: #F5F5F5;
+}
+
+div#side2::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+div#side2::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #555;
+}
